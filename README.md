@@ -1,7 +1,7 @@
 Chrome-OS-Development-Environment
 ================================
 
-This is tell you about "How to setup Chrome OS to the Developer machine?". I so hope mush this is will helpful for everyone interesting Chrome OS. Thank you.
+This is tell you about "How to setup Chrome OS to the Developer machine?". I hope so mush this is will helpful for everyone interesting Chrome OS. Thank you.
 
 # Open source shell
 `shell`
