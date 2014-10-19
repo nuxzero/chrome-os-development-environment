@@ -1,7 +1,7 @@
 Chrome-OS-Development-Environment
 ================================
 
-This is tell you about "How to setup Chrome OS to the Developer machine?". I hope mush this is will helpful for everyone interesting Chrome OS. Thank you.
+This is tell you about "How to setup Chrome OS to the Developer machine?". I so hope mush this is will helpful for everyone interesting Chrome OS. Thank you.
 
 # Open source shell
 `shell`
@@ -33,7 +33,7 @@ And `Sudo chmod 777 -R ~/Downloads`
 - Create alias `alias composer='/usr/local/bin/composer.phar'`
 - Create laravel project `composer create-project laravel/laravel your-project-name --prefer-dist`
 
-# Eroor 'apache2 could not reliably determine the server's fully qualified domain name'
+# Error 'apache2 could not reliably determine the server's fully qualified domain name'
 `sudo nano /etc/apache2/apache2.conf`
 Add 'ServerName localhost'
 And resert apache `sudo service apache2 restart`
