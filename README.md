@@ -23,7 +23,7 @@ http://goo.gl/fd3zc
 
 # Change root document directory
 `sudo nano /etc/apache2/sites-available/default`
-Change root document from `/var/www/` to `/home/{{username}}/local/Downloads/`
+Change root document from `/var/www/` to `/home/{{username}}/Downloads/`
 And restart apache `sudo service apache2 restart` or `sudo /etc/init.d/apache2 restart`
 And `Sudo chmod 777 -R ~/Downloads`
 
