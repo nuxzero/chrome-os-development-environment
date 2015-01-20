@@ -2,6 +2,27 @@ Chrome-OS-Development-Environment
 ================================
 
 This is step by step about "How to setup Chrome OS to the Developer machine?". I hope so mush this is will helpful for everyone interesting Chrome OS. Thank you.
+`
+#!/bin/sh
+
+FILE_PATH="/home/chronos/user/Downloads/crouton"
+
+# Download crouton script
+echo "Crouton script downloading..."
+wget -O $FILE_PATH https://goo.gl/fd3zc
+
+# Install crouton
+echo "Crouton installing..."
+sh -e $FILE_PATH -r wheezy -n debian -t cli-extra
+
+expect "Please specify a username for the primary user:"
+send -- "nux\n"
+expect "Enter new UNIX password:"
+send -- "home1"
+expect "Retype new UNIX password:"
+send -- "home1"
+
+`
 
 # Open source shell
 `shell`
